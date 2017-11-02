@@ -1,0 +1,125 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
+</head>
+
+<body style="font-family: 'Open Sans', sans-serif;
+            color: #525252;
+            font-size: 12px;
+            font-weight: 600;
+            background-color: #F5F5F5;">
+
+
+    <br />
+
+
+    <table  border="1" align="center" cellpadding="9" bordercolor="#95C7DA" bgcolor="#fbfbfb" style="width:736px; height:454px; border: 5px groove #95C7DA; border-collapse: collapse; table-layout: auto; border-spacing: 10px; color: #525252; font-size: 12px; font-weight: 600;">
+        <tbody>
+            <tr>
+                <td height="117" colspan="4" bgcolor="#F9FAFB" style="font-size: 70px; font-weight: 600; color: #83A1A9; text-align: center; border-bottom: 3px groove #95C7DA; padding: 0px 10px;"> <img src="http://www.crmentity.somee.com/images/QuoteImg.PNG" alt="RelianaceQuote"> </td>
+            </tr>
+
+            <tr >
+                <td style="width:50px" bgcolor="#EEF1F4"><strong>Name</strong></td>
+                <td style="width:200px">$customeridname</td>
+				<td style="width:50px" bgcolor="#EEF1F4"><strong>Date</strong></td>
+                <td style="width:200px">$createdon</td>
+            </tr>
+            <tr>
+                <td  bgcolor="#EEF1F4"><strong>Address</strong></td>
+                <td >$address1_line1</td>
+				<td  bgcolor="#EEF1F4"><strong>Quote No</strong></td>
+                <td >$quotenumber</td>
+            </tr>
+            <tr>
+                <td  bgcolor="#EEF1F4"><strong>City:</strong></td>
+                <td >$address1_city</td>
+				<td  bgcolor="#EEF1F4"><strong>Rep Name</strong></td>
+                <td >$createdbyname</td>
+            </tr>
+            <tr>
+                <td  bgcolor="#EEF1F4"><strong>State</strong></td>
+                <td >$address1_stateorprovince</td>
+				<td  bgcolor="#EEF1F4"><strong></strong></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td  bgcolor="#EEF1F4"><strong>Zip</strong></td>
+                <td >$Zip</td>
+				<td  bgcolor="#EEF1F4"><strong></strong></td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td  bgcolor="#EEF1F4"><strong>ATTN</strong></td>
+                <td >$new_contactpersonname</td>
+				<td  bgcolor="#EEF1F4"><strong>Rep Num</strong></td>
+                <td >$address1_telephone1</td>
+            </tr>
+			<tr>
+                <td  colspan="4" bgcolor="#F7F8F9" style="font-size: 18px; font-weight: 300; text-align: center">TIN NUMBER</td>
+            </tr>
+            
+           
+           	
+            <tr>
+                <td colspan="4">
+                    <table style="width:100%" border="0" align="center" bordercolor="#95C7DA" bgcolor="#fbfbfb" style="border: 2px groove #95C7DA; border-collapse: collapse; table-layout: auto; border-spacing: 10px;">
+
+                        <tr bgcolor="#95C7DA" style="color: white;">
+                            <td style="width:40%"><strong>Quantity</strong></td>
+                            <td style="width:30%"><strong>Description</strong></td>
+                            <td style="width:30%"><strong>Unit Price</strong></td>
+							<td style="width:30%"><strong>Total</strong></td>
+                        </tr>
+
+                        $quoteDetails
+                    </table>
+                </td>
+
+            </tr>
+			
+			<tr>
+                <td colspan="4">
+                    <table style="width:100%" border="0" align="center" bordercolor="#95C7DA" bgcolor="#fbfbfb" style="border: 2px groove #95C7DA; border-collapse: collapse; table-layout: auto; border-spacing: 10px;">
+					
+					<tr>
+						<td><img src="C:\Users\jbant\documents\visual studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\images\Notes.PNG" alt="Note" /></td>
+						
+						<td>
+							<table  align="right">
+								<tr>
+                                <td><strong>Subtotal</strong></td>
+                                <td><strong>$new_customtotal_base</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Vat @5.00%</strong></td>
+                                <td><strong>$new_quotevat</strong></td>
+                            </tr>
+                            <tr>
+                                <td><strong>TOTAL</strong></td>
+                                <td><strong>$new_grandtotal_base</strong></td>
+                            </tr>
+							</table>
+						</td>
+					</tr>
+					
+					
+					<tr>
+					
+					</tr>
+					
+                        
+                    </table>
+                </td>
+
+            </tr>
+			
+        </tbody>
+    </table>
+
+
+</body>
+</html>

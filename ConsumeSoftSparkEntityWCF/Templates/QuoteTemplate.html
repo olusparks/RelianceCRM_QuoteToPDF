@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
+        
+</head>
+<body style=" font-family: 'Open Sans', sans-serif;
+            color: #525252;
+            font-size: 12px;
+            font-weight: 100;
+            background-color: #F5F5F5;">
+
+    <br>
+
+    <table border="1" align="center" cellpadding="9" style="background-color:#ffffff; width:794px; height:1122px; border: 1px solid black; border-collapse: collapse; table-layout: auto; border-spacing: 10px; color: #525252; font-size: 12px; font-weight: 100;">
+        <tbody>
+            <tr>
+                <td colspan="4" style="background-color:#ffffff; border-bottom: 2px solid black;" align="center"><img src="http://reliancecrm.azurewebsites.net/images/QuoteImg.PNG" width="560" style="align-content:center" alt="RelianceLogo"></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <table border="0" cellpadding="9" align="center" bordercolor="#95C7DA" bgcolor="#fbfbfb" align="center" style="background-color:#fbfbfb; border-collapse: collapse; table-layout: auto; border-spacing: 10px;">
+                        <tr style="width:794px">
+                            <td style="width:10px;"><strong>Name:</strong></td>
+                            <td style="width:250px; padding-left: 0px;text-align:left;">$customeridname</td>
+                            <td style="width:100px; text-align:right; border:none"><strong>Date:</strong></td>
+                            <td style="width:250px; text-align:left;">$createdon</td>
+                        </tr>
+
+                        <tr style="width:794px">
+                            <td style="width:10px; "><strong>Address:</strong></td>
+                            <td style="width:250px; padding-left: 0px; text-align:left;">$address1_line1</td>
+                            <td style="width:100px;text-align:right;border:none"><strong>Quote No:</strong></td>
+                            <td style="width:250px; text-align:left;">$quotenumber</td>
+                        </tr>
+
+                        <tr style="width:794px">
+                            <td style="width:10px;"><strong>City:</strong></td>
+                            <td style="width:250px; padding-left: 0px; text-align:left;">$address1_city</td>
+                            <td style="width:100px; text-align:right;"><strong>Rep Name:</strong></td>
+                            <td style="width:250px; text-align:left;">$createdbyname</td>
+                        </tr>
+
+
+                        <tr style="width:794px">
+                            <td style=" width:10px;"><strong>State:</strong></td>
+                            <td style="width:250px; padding-left: 0px; text-align:left;">$address1_stateorprovince</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr style="width:794px">
+                            <td style=" width:10px;"><strong>Zip:</strong></td>
+                            <td style="width:250px; padding-left: 0px; text-align:left;">$Zip</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+
+                        <tr style="width:794px">
+                            <td style="width:10px;"><strong>ATTN:</strong></td>
+                            <td style="width:250px; padding-left: 0px; text-align:left;">$new_contactpersonname</td>
+                            <td style="width:100px; text-align:right;"><strong>Rep Num:</strong></td>
+                            <td style="width:250px; text-align:left;">$address1_telephone1</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            
+
+            
+            <tr>
+                <td colspan="4" style="text-align:center; border-bottom: 2px solid black; border-top: 2px solid black;"><strong>TIN 01623868-0001</strong></td>
+            </tr>
+            <tr>
+                <td colspan="4">
+
+                    <table  align="center" bordercolor="#95C7DA" bgcolor="#fbfbfb" align="center" style="background-color:#fbfbfb; width:100%; border-collapse: collapse; table-layout: auto; border-spacing: 10px;">
+                        <tbody>
+                            <tr borderbottom:2px style="color: black; background:#8f8bf6; border:1px solid black">
+                                <td style="width:10%;" height="27"><strong>Qty</strong></td>
+                                <td style="width:45%;"><strong>Description</strong></td>
+                                <td style="width:25%;"><strong>Unit Price (NGN)</strong></td>
+                                <td style="width:20%;"><strong>TOTAL (NGN)</strong></td>
+                            </tr>
+
+                            $quoteDetails
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    <table style="width:100%" border="0" align="center" bordercolor="#95C7DA" bgcolor="white" style="border: 1px groove #95C7DA; border-collapse: collapse; table-layout: auto; border-spacing: 5px;">
+
+                        <tr>
+                            <td><img src="http://reliancecrm.azurewebsites.net/images/Notes.PNG" alt="Note" width="150" /></td>
+
+                            <td style="width:80%">
+                                <table align="right" border="1" style="width:100%">
+                                    <tr>
+                                        <td style="width:20%; text-align:right"><strong>Subtotal</strong></td>
+                                        <td style="width:80%; text-align:right"><strong>$new_customtotal_base</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:right"><strong>Vat @5.00%</strong></td>
+                                        <td style="text-align:right"><strong>$new_quotevat</strong></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="text-align:right"><strong>TOTAL</strong></td>
+                                        <td style="text-align:right"><strong>$new_grandtotal_base</strong></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+
+                        <tr></tr>
+
+
+                    </table>
+                </td>
+
+            </tr>
+            
+
+            <tr>
+                <td colspan="4">
+                    <table border="0" style="float:right;  width:100px;" align="right">
+                        <tbody>
+                            <tr>
+                                <td style="border:2px solid black; text-align:right; width:1%">
+                                    Due to the instability of exchange rate, this quote is only valid for 10 working days
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="4">
+                    <table border="0" style="float:right;  width:794px">
+                        <tbody>
+                            <tr>
+                                <td style="text-align:center; border:1px solid black;">
+                                    The above represent our quotation for item in the description
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+
+</body>
+</html>

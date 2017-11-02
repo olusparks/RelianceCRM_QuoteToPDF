@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script>
+        function AlertTextField() {
+            var QuoteNumber = Xrm.Page.data.entity.attributes.get("quotenumber").getValue();
+            document.getElementById("quoteNum").value = QuoteNumber;
+            
+            var GUIDvalue = Xrm.Page.data.entity.getId();
+            GUIDvalue = GUIDvalue.replace("{", "").replace("}", "");
+            document.getElementById("guidvalue").value = GUIDvalue;
+
+        }
+    </script>
+</head>
+<body>
+    <form method="post" action="http://www.crmentity.somee.com/index">
+        <input type="hidden" id="quoteNum"/>
+        <input type="hidden" id="guidvalue" />
+    </form>
+</body>
+</html>

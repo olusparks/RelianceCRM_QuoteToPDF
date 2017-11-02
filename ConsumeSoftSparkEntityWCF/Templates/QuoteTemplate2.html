@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
+
+    <style type="text/css">
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: #525252;
+            font-size: 12px;
+            font-weight: 600;
+            background-color: #F5F5F5;
+        }
+
+        .hd-txt {
+            font-size: 25px;
+            font-weight: 300;
+            color: #8aa983;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <br />
+
+
+    <table  border="1" align="center" cellpadding="9" bordercolor="#95C7DA" bgcolor="#fbfbfb" style="width:794px; height:1122px; border: 5px groove #95C7DA; border-collapse: collapse; table-layout: auto; border-spacing: 10px; color: #525252; font-size: 12px; font-weight: 600;">
+        <tbody>
+            <tr>
+                <td height="117" colspan="4" bgcolor="#F9FAFB" style="font-size: 70px; font-weight: 600; color: #83A1A9; text-align: right; border-bottom: 3px groove #95C7DA; padding: 0px 10px;"><strong>MEMO</strong></td>
+            </tr>
+
+            <tr>
+                <td width="186" height="20" bgcolor="#EEF1F4"><strong>Ref No:</strong></td>
+                <td width="274" colspan="3">$RefNo</td>
+            </tr>
+            <tr>
+                <td width="186" height="20" bgcolor="#EEF1F4"><strong>To:</strong></td>
+                <td colspan="3">$toMemo</td>
+            </tr>
+            <tr>
+                <td height="20" bgcolor="#EEF1F4"><strong>From:</strong></td>
+                <td colspan="3">$fromSender</td>
+            </tr>
+            <tr>
+                <td height="20" bgcolor="#EEF1F4"><strong>Created By:</strong></td>
+                <td colspan="3">$createdBy</td>
+            </tr>
+            <tr>
+                <td height="20" bgcolor="#EEF1F4"><strong>Date:</strong></td>
+                <td colspan="3">$dateMemo</td>
+            </tr>
+            <tr>
+                <td height="20" bgcolor="#EEF1F4"><strong>Re:</strong></td>
+                <td colspan="3">$titleMemo</td>
+            </tr>
+            <tr>
+                <td height="20" colspan="4" bgcolor="#F7F8F9" style="font-size: 18px; font-weight: 500;">Message</td>
+            </tr>
+            <tr>
+                <td height="119" colspan="4" valign="top" bgcolor="#FFFFFF">$MessageContent</td>
+            </tr>
+            <tr>
+                <td height="20" colspan="4" bgcolor="#F7F8F9" style="font-size: 18px; font-weight: 500;">Approval Comment</td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <table width="100%" border="0" align="center" bordercolor="#95C7DA" bgcolor="#fbfbfb" style="border: 2px groove #95C7DA; border-collapse: collapse; table-layout: auto; border-spacing: 10px;">
+
+                        <tr bgcolor="#95C7DA" style="color: white;">
+                            <td width="40%" height="27"><strong>Comment Details</strong></td>
+                            <td width="30%"><strong>Date & Time</strong></td>
+                            <td width="30%"><strong>Status</strong></td>
+                        </tr>
+
+                        $approvalHistory
+                    </table>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>

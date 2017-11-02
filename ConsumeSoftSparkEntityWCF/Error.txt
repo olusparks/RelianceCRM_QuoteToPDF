@@ -1,0 +1,565 @@
+﻿Message :Value cannot be null.
+StackTrace :
+Date :10/19/2017 5:59:08 PM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 29
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 193
+Date :10/19/2017 5:59:08 PM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/19/2017 6:00:01 PM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 29
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 193
+Date :10/19/2017 6:00:01 PM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/19/2017 6:00:29 PM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 29
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 193
+Date :10/19/2017 6:00:30 PM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+Parameter name: identityProvider
+StackTrace :   at Microsoft.Xrm.Sdk.ClientExceptionHelper.ThrowIfNull(Object parameter, String name)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateOnlineFederationInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateOnlineFederation()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateCore()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.Authenticate()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.ValidateAuthentication()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.get_ServiceChannel()
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1.Initialize(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1..ctor(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContextInitializer..ctor(OrganizationServiceProxy proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.RetrieveEntityCollection(OrganizationRequest request, NavigationSource source)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute(QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups, String& pagingCookie, Boolean& moreRecords)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.GetEnumerator[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.Query`1.GetEnumerator()
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 156
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 199
+Date :10/20/2017 3:32:04 PM
+-----------------------------------------------------------------------------
+Message :Metadata contains a reference that cannot be resolved: 'https://relianceinfo.crm4.dynamics.com/XRMServices/2011/Organization.svc?wsdl&sdkversion=8.2'.
+StackTrace :   at System.ServiceModel.Description.MetadataExchangeClient.MetadataRetriever.Retrieve(TimeoutHelper timeoutHelper)
+   at System.ServiceModel.Description.MetadataExchangeClient.ResolveNext(ResolveCallState resolveCallState)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(MetadataRetriever retriever)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(Uri address, MetadataExchangeClientMode mode)
+   at Microsoft.Xrm.Sdk.Client.ServiceMetadataUtility.RetrieveServiceEndpointMetadata(Type contractType, Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration..ctor(Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 33
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 199
+Date :10/20/2017 3:37:40 PM
+-----------------------------------------------------------------------------
+Message :Metadata contains a reference that cannot be resolved: 'https://relianceinfo.crm4.dynamics.com/XRMServices/2011/Organization.svc?wsdl&sdkversion=8.2'.
+StackTrace :   at System.ServiceModel.Description.MetadataExchangeClient.MetadataRetriever.Retrieve(TimeoutHelper timeoutHelper)
+   at System.ServiceModel.Description.MetadataExchangeClient.ResolveNext(ResolveCallState resolveCallState)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(MetadataRetriever retriever)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(Uri address, MetadataExchangeClientMode mode)
+   at Microsoft.Xrm.Sdk.Client.ServiceMetadataUtility.RetrieveServiceEndpointMetadata(Type contractType, Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration..ctor(Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 33
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 199
+Date :10/20/2017 5:07:53 PM
+-----------------------------------------------------------------------------
+Message :The request channel timed out while waiting for a reply after 00:00:59.6724777. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+StackTrace :
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at System.ServiceModel.Security.IWSTrustContract.Issue(Message message)
+   at System.ServiceModel.Security.WSTrustChannel.Issue(RequestSecurityToken rst, RequestSecurityTokenResponse& rstr)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Issue(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateTokenWithOrgIdForCrm(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateOnlineFederationInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateOnlineFederation()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateCore()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.Authenticate()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.ValidateAuthentication()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.get_ServiceChannel()
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1.Initialize(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1..ctor(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContextInitializer..ctor(OrganizationServiceProxy proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.RetrieveEntityCollection(OrganizationRequest request, NavigationSource source)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute(QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups, String& pagingCookie, Boolean& moreRecords)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.GetEnumerator[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.Query`1.GetEnumerator()
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 156
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 199
+Date :10/23/2017 11:16:52 AM
+-----------------------------------------------------------------------------
+Message :Cannot access a disposed object.
+Object name: 'System.ServiceModel.Security.TransportSecurityProtocol'.
+StackTrace :
+Server stack trace: 
+   at System.ServiceModel.Channels.CommunicationObject.ThrowIfClosedOrNotOpen()
+   at System.ServiceModel.Security.TransportSecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout)
+   at System.ServiceModel.Security.SecurityProtocol.VerifyIncomingMessage(Message& message, TimeSpan timeout, SecurityProtocolCorrelationState[] correlationStates)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.ProcessReply(Message reply, SecurityProtocolCorrelationState correlationState, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at Microsoft.Xrm.Sdk.IOrganizationService.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.RetrieveEntityCollection(OrganizationRequest request, NavigationSource source)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute(QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups, String& pagingCookie, Boolean& moreRecords)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.GetEnumerator[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.Query`1.GetEnumerator()
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 238
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 202
+Date :10/24/2017 6:01:22 PM
+-----------------------------------------------------------------------------
+Message :An error occurred while receiving the HTTP response to https://login.microsoftonline.com/RST2.srf. This could be due to the service endpoint binding not using the HTTP protocol. This could also be due to an HTTP request context being aborted by the server (possibly due to the service shutting down). See server logs for more details.
+StackTrace :
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at System.ServiceModel.Security.IWSTrustContract.Issue(Message message)
+   at System.ServiceModel.Security.WSTrustChannel.Issue(RequestSecurityToken rst, RequestSecurityTokenResponse& rstr)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Issue(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateTokenWithOrgIdForCrm(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateOnlineFederationInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateOnlineFederation()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateCore()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.Authenticate()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.ValidateAuthentication()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.get_ServiceChannel()
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1.Initialize(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1..ctor(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContextInitializer..ctor(OrganizationServiceProxy proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.RetrieveEntityCollection(OrganizationRequest request, NavigationSource source)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute(QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups, String& pagingCookie, Boolean& moreRecords)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.GetEnumerator[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.Query`1.GetEnumerator()
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 157
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 202
+Date :10/24/2017 6:13:43 PM
+-----------------------------------------------------------------------------
+Message :The request channel timed out while waiting for a reply after 00:00:59.9989999. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+StackTrace :
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at System.ServiceModel.Security.IWSTrustContract.Issue(Message message)
+   at System.ServiceModel.Security.WSTrustChannel.Issue(RequestSecurityToken rst, RequestSecurityTokenResponse& rstr)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Issue(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateTokenWithOrgIdForCrm(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateOnlineFederationInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateOnlineFederation()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateCore()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.Authenticate()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.ValidateAuthentication()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.get_ServiceChannel()
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1.Initialize(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1..ctor(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContextInitializer..ctor(OrganizationServiceProxy proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.RetrieveEntityCollection(OrganizationRequest request, NavigationSource source)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute(QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups, String& pagingCookie, Boolean& moreRecords)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.GetEnumerator[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.Query`1.GetEnumerator()
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 157
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 202
+Date :10/24/2017 6:18:23 PM
+-----------------------------------------------------------------------------
+Message :The request channel timed out while waiting for a reply after 00:00:59.9989993. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+StackTrace :
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at System.ServiceModel.Security.IWSTrustContract.Issue(Message message)
+   at System.ServiceModel.Security.WSTrustChannel.Issue(RequestSecurityToken rst, RequestSecurityTokenResponse& rstr)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Issue(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateTokenWithOrgIdForCrm(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateOnlineFederationInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateOnlineFederation()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateCore()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.Authenticate()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.ValidateAuthentication()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.get_ServiceChannel()
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1.Initialize(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1..ctor(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContextInitializer..ctor(OrganizationServiceProxy proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.RetrieveEntityCollection(OrganizationRequest request, NavigationSource source)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute(QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups, String& pagingCookie, Boolean& moreRecords)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.GetEnumerator[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.Query`1.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at SoftSparkEntityWCF.CRMEntity.GetQuoteDetails(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 437
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 203
+Date :10/24/2017 6:45:38 PM
+-----------------------------------------------------------------------------
+Message :The request channel timed out while waiting for a reply after 00:00:59.9919137. Increase the timeout value passed to the call to Request or increase the SendTimeout value on the Binding. The time allotted to this operation may have been a portion of a longer timeout.
+StackTrace :
+Server stack trace: 
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.SecurityChannelFactory`1.SecurityRequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at System.ServiceModel.Security.IWSTrustContract.Issue(Message message)
+   at System.ServiceModel.Security.WSTrustChannel.Issue(RequestSecurityToken rst, RequestSecurityTokenResponse& rstr)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Issue(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateTokenWithOrgIdForCrm(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.AuthenticateOnlineFederationInternal(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration.Authenticate(AuthenticationCredentials authenticationCredentials)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateOnlineFederation()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.AuthenticateCore()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.Authenticate()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.ValidateAuthentication()
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1.get_ServiceChannel()
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1.Initialize(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.ServiceContextInitializer`1..ctor(ServiceProxy`1 proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContextInitializer..ctor(OrganizationServiceProxy proxy)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.ExecuteCore(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceContext.Execute(OrganizationRequest request)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.RetrieveEntityCollection(OrganizationRequest request, NavigationSource source)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute(QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups, String& pagingCookie, Boolean& moreRecords)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](QueryExpression qe, Boolean throwIfSequenceIsEmpty, Boolean throwIfSequenceNotSingle, Projection projection, NavigationSource source, List`1 linkLookups)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.Execute[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.QueryProvider.GetEnumerator[TElement](Expression expression)
+   at Microsoft.Xrm.Sdk.Linq.Query`1.GetEnumerator()
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 157
+   at ConsumeSoftSparkEntityWCF.index.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\index.aspx.cs:line 202
+Date :10/24/2017 6:48:36 PM
+-----------------------------------------------------------------------------
+Message :Metadata contains a reference that cannot be resolved: 'https://relianceinfo.crm4.dynamics.com/XRMServices/2011/Organization.svc?wsdl&sdkversion=8.2'.
+StackTrace :   at System.ServiceModel.Description.MetadataExchangeClient.MetadataRetriever.Retrieve(TimeoutHelper timeoutHelper)
+   at System.ServiceModel.Description.MetadataExchangeClient.ResolveNext(ResolveCallState resolveCallState)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(MetadataRetriever retriever)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(Uri address, MetadataExchangeClientMode mode)
+   at Microsoft.Xrm.Sdk.Client.ServiceMetadataUtility.RetrieveServiceEndpointMetadata(Type contractType, Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration..ctor(Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 34
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 345
+Date :10/24/2017 7:09:32 PM
+-----------------------------------------------------------------------------
+Message :Metadata contains a reference that cannot be resolved: 'https://relianceinfo.crm4.dynamics.com/XRMServices/2011/Organization.svc?wsdl&sdkversion=8.2'.
+StackTrace :   at System.ServiceModel.Description.MetadataExchangeClient.MetadataRetriever.Retrieve(TimeoutHelper timeoutHelper)
+   at System.ServiceModel.Description.MetadataExchangeClient.ResolveNext(ResolveCallState resolveCallState)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(MetadataRetriever retriever)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(Uri address, MetadataExchangeClientMode mode)
+   at Microsoft.Xrm.Sdk.Client.ServiceMetadataUtility.RetrieveServiceEndpointMetadata(Type contractType, Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration..ctor(Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 34
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 348
+Date :10/24/2017 8:09:05 PM
+-----------------------------------------------------------------------------
+Message :Metadata contains a reference that cannot be resolved: 'https://relianceinfo.crm4.dynamics.com/XRMServices/2011/Organization.svc?wsdl&sdkversion=8.2'.
+StackTrace :   at System.ServiceModel.Description.MetadataExchangeClient.MetadataRetriever.Retrieve(TimeoutHelper timeoutHelper)
+   at System.ServiceModel.Description.MetadataExchangeClient.ResolveNext(ResolveCallState resolveCallState)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(MetadataRetriever retriever)
+   at System.ServiceModel.Description.MetadataExchangeClient.GetMetadata(Uri address, MetadataExchangeClientMode mode)
+   at Microsoft.Xrm.Sdk.Client.ServiceMetadataUtility.RetrieveServiceEndpointMetadata(Type contractType, Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfiguration`1..ctor(Uri serviceUri, Boolean checkForSecondary)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceConfiguration..ctor(Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri, Boolean enableProxyTypes, Assembly assembly)
+   at Microsoft.Xrm.Sdk.Client.ServiceConfigurationFactory.CreateConfiguration[TService](Uri serviceUri)
+   at Microsoft.Xrm.Sdk.Client.ServiceProxy`1..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy..ctor(Uri uri, Uri homeRealmUri, ClientCredentials clientCredentials, ClientCredentials deviceCredentials)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 34
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 348
+Date :10/24/2017 8:22:36 PM
+-----------------------------------------------------------------------------
+Message :An error occurred during local report processing.
+StackTrace :   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, CreateAndRegisterStream createStreamCallback, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.Render(String format, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.Report.Render(String format, String deviceInfo, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues()
+Date :10/25/2017 2:42:56 PM
+-----------------------------------------------------------------------------
+Message :An error occurred during local report processing.
+StackTrace :   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, CreateAndRegisterStream createStreamCallback, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.Render(String format, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.Report.Render(String format, String deviceInfo, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 398
+Date :10/25/2017 3:22:52 PM
+-----------------------------------------------------------------------------
+Message :An error occurred during local report processing.
+StackTrace :   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, CreateAndRegisterStream createStreamCallback, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.Render(String format, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.Report.Render(String format, String deviceInfo, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 398
+Date :10/25/2017 3:25:53 PM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 9:24:38 AM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 390
+Date :10/26/2017 9:24:38 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 9:41:46 AM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 390
+Date :10/26/2017 9:41:46 AM
+-----------------------------------------------------------------------------
+Message :An error occurred during local report processing.
+StackTrace :   at Microsoft.Reporting.WebForms.LocalReport.EnsureExecutionSession()
+   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, CreateAndRegisterStream createStreamCallback, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.Render(String format, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.Report.Render(String format, String deviceInfo, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 430
+Date :10/26/2017 9:44:05 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 9:45:04 AM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 390
+Date :10/26/2017 9:45:04 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 10:54:00 AM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 390
+Date :10/26/2017 10:54:00 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 10:59:20 AM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 390
+Date :10/26/2017 10:59:24 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 11:15:12 AM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 390
+Date :10/26/2017 11:15:12 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 11:20:37 AM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 390
+Date :10/26/2017 11:20:38 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 11:39:22 AM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 392
+Date :10/26/2017 11:39:23 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 11:48:06 AM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 392
+Date :10/26/2017 11:48:06 AM
+-----------------------------------------------------------------------------
+Message :An error occurred during local report processing.
+StackTrace :   at Microsoft.Reporting.WebForms.LocalReport.EnsureExecutionSession()
+   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, CreateAndRegisterStream createStreamCallback, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.InternalRender(String format, Boolean allowInternalRenderers, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.LocalReport.Render(String format, String deviceInfo, PageCountMode pageCountMode, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at Microsoft.Reporting.WebForms.Report.Render(String format, String deviceInfo, String& mimeType, String& encoding, String& fileNameExtension, String[]& streams, Warning[]& warnings)
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 437
+Date :10/26/2017 11:50:28 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 11:59:35 AM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 12:02:07 PM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 12:03:05 PM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 406
+Date :10/26/2017 12:03:06 PM
+-----------------------------------------------------------------------------
+Message :'http:/localhost:36704/toWindow.aspx/Reports/QuoteReportt.rdlc' is not a valid virtual path.
+StackTrace :   at System.Web.Util.UrlPath.CheckValidVirtualPath(String path)
+   at System.Web.Util.UrlPath.Combine(String appPath, String basepath, String relative)
+   at System.Web.VirtualPath.Combine(VirtualPath relativePath)
+   at System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   at System.Web.HttpServerUtility.MapPath(String path)
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 439
+Date :10/26/2017 12:06:40 PM
+-----------------------------------------------------------------------------
+Message :Value cannot be null.
+StackTrace :
+Date :10/26/2017 2:48:32 PM
+-----------------------------------------------------------------------------
+Message :Unrecognized Guid format.
+StackTrace :   at System.Guid.TryParseGuid(String g, GuidStyles flags, GuidResult& result)
+   at System.Guid..ctor(String g)
+   at SoftSparkEntityWCF.CRMEntity.GetQuote(String quoteNumber, String id) in c:\Users\jbant\Documents\Visual Studio 2013\Projects\SoftSparkEntityWCF\SoftSparkEntityWCF\CRMEntity.cs:line 31
+   at ConsumeSoftSparkEntityWCF.toWindow.GetAllValues() in c:\Users\jbant\Documents\Visual Studio 2013\Projects\ConsumeSoftSparkEntityWCF\ConsumeSoftSparkEntityWCF\toWindow.aspx.cs:line 406
+Date :10/26/2017 2:48:32 PM
+-----------------------------------------------------------------------------

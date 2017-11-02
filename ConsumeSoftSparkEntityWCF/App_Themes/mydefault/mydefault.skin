@@ -1,0 +1,56 @@
+﻿
+
+<asp:TextBox runat="server" Font-Size="12px" CssClass="x-form-text x-form-item x-form-trigger-wrap x-border-box x-border-box *" />
+
+<asp:TextBox runat="server" Font-Size="12px" CssClass="x-form-text x-form-item x-form-trigger-wrap x-border-box x-border-box *"  skinID="Testing"/>
+
+<asp:TextBox runat="server" Font-Size="12px"  BackColor="#DEE3E6" CssClass="x-border-box x-border-box *"  skinID="disabled"/>
+
+<asp:TextBox runat="server"   height="19px"  Font-Size="12px"  CssClass="x-form-text x-form-item x-form-trigger-wrap x-border-box x-border-box *"
+    ForeColor="#000000"  Font-Names="Tahoma,Arial,Verdana,Sans-Serif"  skinID="Ext"  />
+
+<asp:Button runat="server" BackColor="#85A7C5" BorderColor="#6C95B9" BorderWidth="1px"
+    BorderStyle="outset" ForeColor="#FBFCFD" Font-Size="11px" style="padding: 4px;" skinID="Normal1" />
+    
+    <asp:Button runat="server"  Font-Bold="False" Font-Names="Tahoma,Arial,Verdana, Sans-Serif" Font-Size="12px"   CssClass="btnbrand" skinid="nButton"/>
+
+      <asp:Button runat="server"  Font-Names="Tahoma,Arial,Verdana, Sans-Serif" Font-Size="10px"   CssClass="ibtn ibtn-primary" skinid="iButton"/>
+  
+    <asp:Button runat="server" Font-Bold="True" Font-Names="Tahoma,Arial,Verdana, Sans-Serif" Font-Size="12px"  />
+    
+<asp:Button runat="server"  Font-Size="12px" style="height:24px" skinID="Normal" />
+
+<asp:DropDownList runat="server"  Font-Size="12px" Font-Names="Tahoma,Arial,Verdana, Sans-Serif" CssClass="x-form-text" /> 
+
+ <asp:DropDownList runat="server" Font-Size="12px" Font-Names="Tahoma,Arial,Verdana, Sans-Serif" skinID="Normal" borderStyle="Solid" BorderColor="#e1e1e1" BorderWidth="1px"  />
+
+<asp:CheckBoxList runat="server" Font-Size="11px" Font-Names="Tahoma,Arial,Verdana, Sans-Serif"  backcolor="#E0e0e0" borderStyle="Solid" BorderColor="#BCB0B0" BorderWidth="1px"/>
+
+ <%--
+ <asp:GridView runat="server" CssClass="table table-hover table-condensed table-bordered" SkinID="DeOne" AlternatingRowStyle-CssClass="table-striped" >
+<RowStyle Font-Size="11px" />
+<AlternatingRowStyle CssClass="table-striped" /> 
+</asp:GridView> 
+
+ <asp:GridView runat="server" CssClass="defaultGrid"  >
+<RowStyle Font-Size="11px" />
+<PagerStyle CssClass="GridPager" />
+</asp:GridView>
+
+<asp:GridView runat="server" CellPadding="3" CssClass="CalcTable" GridLines="None" Font-Size="12px" SkinID="mAccess1">
+    <RowStyle BackColor="#FCFCFC" />
+    <HeaderStyle BackColor="#E0E0E0" bordercolor="#999999" borderwidth="1px"  />
+    <AlternatingRowStyle BackColor="#F4F4F7" />
+</asp:GridView>
+
+<asp:GridView  runat="server" BorderColor="#999999" BorderStyle="Double" BorderWidth="1px" CssClass="oGrid"
+    HeaderStyle-BackColor="#E0E0E0" HeaderStyle-ForeColor="#00097A" Font-Size="11px"
+  RowStyle-BorderColor="#999999"  RowStyle-BorderStyle="Solid"  RowStyle-BorderWidth="1px" SkinID="mAccess">
+  <AlternatingRowStyle BackColor="#F4F4F7" />
+  
+  </asp:GridView>
+<asp:GridView runat="server" CssClass="oGrid" FooterStyle-BackColor="#DAE1FA"
+ AlternatingRowStyle-BackColor="#E0E0E0" skinID="grid"/>
+ --%>
+
+ 
